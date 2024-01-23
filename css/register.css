@@ -1,0 +1,132 @@
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+header .logo {
+    line-height: 84px;
+    /* margin-top: 16px; */
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececee;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea h3 a {
+    color: #c81523;
+}
+
+
+
+
+.registerarea .reg_form {
+    width: 600px;
+    /* background-color: pink; */
+    margin: 50px auto 0;
+
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form .error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png);
+    vertical-align: middle;
+    margin-top: -3px;
+
+}
+
+.reg_form .success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png);
+    vertical-align: middle;
+    margin-top: -3px;
+
+}
+
+.reg_form .agree {
+    /* text-align: center; */
+    margin-left: 100px;
+}
+
+.reg_form input {
+    vertical-align: middle;
+}
+
+.success {
+
+    color: green;
+}
+
+.error {
+
+    color: red;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.safe {
+    padding-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+    margin-left: 3px;
+    color: #fff;
+}
+
+.safe .week {
+    background-color: red;
+}
+
+.safe .median {
+    background-color: green;
+}
+
+.safe .strong {
+    background-color: orange;
+}
+
+li .btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: none;
+    font-style: 14px;
+    color: #fff;
+    margin: 30px 0 0 70px;
+    cursor: pointer;
+}
